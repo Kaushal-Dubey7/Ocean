@@ -1,17 +1,40 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 
 const SoundControls = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
 
+  const audioRef = useRef(null);
+
   useEffect(() => {
-    // We would initialize Howler.js or native Audio here
-    // For now we just mock the state
+    // Initialize Audio
+    const audio = new Audio('/assets/sound/nastelbom-relax-463106 (1).mp3');
+    audio.loop = true;
+    audio.volume = volume;
+    audioRef.current = audio;
+
     return () => {
-      // Cleanup audio
+      audio.pause();
+      audio.src = '';
     };
   }, []);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.play().catch(e => console.log('Audio playback prevented', e));
+      } else {
+        audioRef.current.pause();
+      }
+    }
+  }, [isPlaying]);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+    }
+  }, [volume]);
 
   return (
     <div className="fixed bottom-4 left-4 z-50 glass-panel p-3 flex items-center gap-4 transition-all hover:bg-white/10">
