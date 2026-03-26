@@ -1,0 +1,35 @@
+/* Color Palette by Zone */
+:root {
+  /* Surface Zone */
+  --surface-primary: #00A8E8;
+  --surface-secondary: #4ECDC4;
+  --surface-light: #7DD8F7;
+  --surface-accent: #FFD93D;
+
+  /* Sunlight Zone */
+  --sunlight-primary: #2E8BC0;
+  --sunlight-secondary: #0077B6;
+  --sunlight-light: #48CAE4;
+
+  /* Twilight Zone */
+  --twilight-primary: #4A148C;
+  --twilight-secondary: #6A1B9A;
+  --twilight-accent: #00E5FF;
+
+  /* Midnight Zone */
+  --midnight-primary: #0A1931;
+  --midnight-secondary: #1A1F3A;
+  --midnight-glow: #00FFF5;
+
+  /* Abyssal Zone */
+  --abyssal-primary: #000814;
+  --abyssal-secondary: #001D3D;
+  --abyssal-biolum: #39FF14;
+  --abyssal-vent: #FF6B35;
+
+  /* General */
+  --text-main: #FFFFFF;
+  --text-muted: rgba(255, 255, 255, 0.7);
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
