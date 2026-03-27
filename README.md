@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Ocean Depths Banner](https://img.shields.io/badge/Frontend_Odyssey-Hackathon_2024-0088cc?style=for-the-badge)
+![Ocean Depths Banner](https://img.shields.io/badge/Frontend_Odyssey-Hackathon_2026-0088cc?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.2.0-61dafb?style=for-the-badge&logo=react)
 ![GSAP](https://img.shields.io/badge/GSAP-3.12-88CE02?style=for-the-badge&logo=greensock)
 ![Three.js](https://img.shields.io/badge/Three.js-0.160-000000?style=for-the-badge&logo=three.js)
@@ -515,10 +515,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📧 Contact
 
 **Project Creator**: Kaushal Dubey
-**GitHub**: [@yourusername](https://github.com/Kaushal-Dubey7)  
-
-**Project Link**: [https://github.com/yourusername/ocean-depths](https://github.com/Kaushal-Dubey7/Ocean.git)  
-**Live Demo**: [https://ocean-depths.vercel.app](https://ocean-xi-pink.vercel.app/))
 
 ---
 
